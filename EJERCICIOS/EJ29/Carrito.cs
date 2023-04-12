@@ -16,7 +16,8 @@ namespace EJERCICIOS.EJ29
         {
             Tarjeta tarjetaAUtilizar = Cliente.ElegirTarjeta();
 
-            if(tarjetaAUtilizar.Pagar(this))
+            int total = CalcularTotal();
+            if(tarjetaAUtilizar.Pagar(total))
                 Estado = false;
         }
 

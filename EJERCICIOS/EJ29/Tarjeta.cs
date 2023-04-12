@@ -15,9 +15,8 @@ namespace EJERCICIOS.EJ29
         bool Verificada;
         Cliente Cliente;
 
-        public bool Pagar(Carrito Carrito)
+        public bool Pagar(int total)
         {
-            int total = Carrito.CalcularTotal();
             total = RealizarDescuento(total);
 
             if(Verificada)
