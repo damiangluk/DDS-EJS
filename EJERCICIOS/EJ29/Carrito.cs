@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EJERCICIOS.EJ29
 {
-    internal class Carrito
+    internal class Equipo
     {
         Cliente Cliente;
         List<Item> Items;

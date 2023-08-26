@@ -15,7 +15,7 @@ namespace EJERCICIOS.EJ29
         string Email;
         int Dni;
         List<Tarjeta> Tarjetas;
-        List<Carrito> Carritos;
+        List<Equipo> Carritos;
         bool Preferencial;
 
         public Tarjeta ElegirTarjeta()
